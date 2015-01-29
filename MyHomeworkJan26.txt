@@ -1,4 +1,5 @@
 #Calculating AT content
+from __future__ import division
 my_dna = "ACTGATCGATTACGTATAGTATTTGCTATCATACATATATATCGATGCGTTCAT"
 length = len(my_dna)
 a_count = my_dna.count('A')
